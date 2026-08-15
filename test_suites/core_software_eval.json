@@ -1,0 +1,27 @@
+{
+  "name": "core_software_eval",
+  "description": "Small evaluation suite covering software engineering reasoning and API reliability concepts.",
+  "cases": [
+    {
+      "id": "api-idempotency",
+      "category": "software_engineering",
+      "prompt": "Why is idempotency important for a payment API?",
+      "reference_answer": "Idempotency prevents the same payment request from creating duplicate transactions when clients retry after timeouts or network failures.",
+      "required_terms": ["duplicate", "retry"]
+    },
+    {
+      "id": "kafka-offset",
+      "category": "distributed_systems",
+      "prompt": "What does a Kafka consumer offset represent?",
+      "reference_answer": "A consumer offset records the position of a consumer in a Kafka partition so processing can resume from a known point.",
+      "required_terms": ["partition", "position"]
+    },
+    {
+      "id": "rest-status",
+      "category": "api_design",
+      "prompt": "Which HTTP status code is commonly returned when a requested resource is not found?",
+      "reference_answer": "HTTP 404 Not Found.",
+      "required_terms": ["404"]
+    }
+  ]
+}

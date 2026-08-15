@@ -1,0 +1,21 @@
+{
+  "suite_name": "core_software_eval",
+  "model_name": "candidate-model-v1",
+  "responses": [
+    {
+      "case_id": "api-idempotency",
+      "response": "Idempotency makes retries safe by preventing duplicate payment transactions.",
+      "latency_ms": 180
+    },
+    {
+      "case_id": "kafka-offset",
+      "response": "The offset is the consumer position within a Kafka partition.",
+      "latency_ms": 145
+    },
+    {
+      "case_id": "rest-status",
+      "response": "404 Not Found",
+      "latency_ms": 92
+    }
+  ]
+}
