@@ -35,7 +35,7 @@ JSON Test Suites
       |       exact match / token F1 / required terms
       |
       +---- Model Judge Interface
-      |       provider adapter in progress
+      |       optional HTTP judge adapter
       |
       v
    MongoDB  <------ React Evaluation Dashboard
